@@ -57,8 +57,8 @@ spec:
           envFrom:
             - configMapRef:
                 name: payment
-            - secretRef:
-                name: payment
+            # - secretRef:
+            #     name: payment
           ports:
             - name: liveness-port
               containerPort: 8080
