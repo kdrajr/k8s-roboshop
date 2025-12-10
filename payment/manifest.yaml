@@ -52,7 +52,7 @@ spec:
           image: kdrajr/payment:v1
           imagePullPolicy: Always
           envFrom:
-            - confiMapRef:
+            - configMapRef:
                 name: payment
             - secretRef:
                 name: payment
